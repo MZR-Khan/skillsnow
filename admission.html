@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Admission Form | SkillsNow Computer Institute</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Online Admission Form | SkillsNow Computer Institute">
+    <meta name="description" content="Apply online for computer courses at SkillsNow Computer Institute. Basic IT, Web Development, AI, Digital Marketing, E-Commerce, Graphic Design, Video Editing. Get 50% OFF on your 1st course!">
+    <meta name="keywords" content="SkillsNow Admission Form, Register Computer Course, IT Institute Registration, Web Dev Admission, AI Course Admission, 50% Discount IT Course">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Online Admission Form | SkillsNow Computer Institute">
+    <meta property="og:description" content="Enroll now in 7 in-demand tech courses. Standard fee 16,000 PKR → First Course Promo Fee 8,000 PKR!">
+    <meta property="og:image" content="https://placehold.co/1200x630/0d2353/00d2ff?text=SkillsNow+Online+Admission+Form">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0A192F',
+                            deep: '#0D2353',
+                            blue: '#1D4ED8',
+                            cyan: '#00D2FF',
+                            orange: '#FF6B00',
+                            amber: '#F59E0B',
+                            lightBg: '#F8FAFC'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Font Awesome Icons & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .bg-brand-gradient {
+            background: linear-gradient(135deg, #0A192F 0%, #0D2353 50%, #1D4ED8 100%);
+        }
+        .text-gradient-cyan {
+            background: linear-gradient(90deg, #00D2FF 0%, #60A5FA 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased overflow-x-hidden selection:bg-brand-cyan selection:text-brand-navy">
+
+    <!-- Top Contact & Notification Bar -->
+    <div class="bg-brand-navy text-white text-xs md:text-sm py-2 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4 flex-wrap justify-center">
+                <span class="inline-flex items-center gap-1.5 text-amber-400 font-semibold bg-amber-400/10 px-2.5 py-0.5 rounded-full border border-amber-400/20 animate-pulse">
+                    <i class="fa-solid fa-fire"></i> Welcome Offer: 50% OFF on 1st Course!
+                </span>
+                <span class="hidden sm:inline text-slate-500">|</span>
+                <a href="tel:03249375759" class="hover:text-brand-cyan transition flex items-center gap-1.5 font-medium">
+                    <i class="fa-solid fa-phone text-brand-cyan"></i> 0324 9375759
+                </a>
+                <span class="hidden sm:inline text-slate-500">|</span>
+                <a href="https://share.google/3dakiHNMTiCTrXndM" target="_blank" class="hover:text-brand-cyan transition flex items-center gap-1.5">
+                    <i class="fa-solid fa-location-dot text-brand-orange"></i> Campus Location Map
+                </a>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="text-slate-300 font-medium">Standard Fee: <span class="line-through text-slate-400">16,000 PKR</span> <span class="text-brand-cyan font-bold">8,000 PKR</span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100 transition-all duration-300" id="mainHeader">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Brand Logo -->
+                <a href="index.html" class="flex items-center gap-3 group">
+                    <div class="relative w-12 h-12 flex items-center justify-center bg-brand-deep rounded-xl shadow-md group-hover:scale-105 transition transform">
+                        <svg viewBox="0 0 100 100" class="w-10 h-10">
+                            <!-- Graduation Cap -->
+                            <path d="M50 15 L85 30 L50 45 L15 30 Z" fill="#00D2FF" />
+                            <path d="M30 38 L30 55 C30 65 70 65 70 55 L70 38" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+                            <!-- SN Letters -->
+                            <text x="18" y="82" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="42" fill="#FFFFFF">S</text>
+                            <text x="48" y="82" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="42" fill="#00D2FF">N</text>
+                            <!-- Orange Arrow -->
+                            <path d="M62 78 L85 52 M85 52 H70 M85 52 V67" fill="none" stroke="#FF6B00" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+                            <circle cx="62" cy="78" r="4" fill="#FF6B00" />
+                            <circle cx="73" cy="65" r="3" fill="#FF6B00" />
+                        </svg>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="flex items-center">
+                            <span class="text-2xl font-black text-brand-deep tracking-tight">Skills</span>
+                            <span class="text-2xl font-black text-brand-cyan tracking-tight">Now</span>
+                        </div>
+                        <span class="text-[10px] uppercase font-bold tracking-wider text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded border border-slate-200">
+                            Computer Institute
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Menu Nav -->
+                <nav class="hidden lg:flex items-center gap-8 font-semibold text-sm text-slate-700">
+                    <a href="index.html" class="hover:text-brand-blue transition">Home</a>
+                    <a href="about.html" class="hover:text-brand-blue transition">About Us</a>
+                    <a href="courses.html" class="hover:text-brand-blue transition">Courses (7)</a>
+                    <a href="admission.html" class="text-brand-blue font-bold border-b-2 border-brand-blue pb-1 flex items-center gap-1">
+                        Admission <span class="bg-brand-orange text-white text-[10px] px-1.5 py-0.5 rounded font-extrabold uppercase">50% Off</span>
+                    </a>
+                    <a href="verification.html" class="hover:text-brand-blue transition">Student Verification</a>
+                    <a href="contact.html" class="hover:text-brand-blue transition">Contact & Location</a>
+                </nav>
+
+                <!-- Action CTA Buttons -->
+                <div class="hidden lg:flex items-center gap-3">
+                    <a href="https://wa.me/923249375759?text=Hi%20SkillsNow,%20I%20want%20to%20apply%20for%20admission!" 
+                       target="_blank"
+                       class="flex items-center gap-2 border border-emerald-500 text-emerald-600 hover:bg-emerald-50 px-4 py-2.5 rounded-xl font-bold text-xs transition">
+                        <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp Us
+                    </a>
+                    <a href="#admissionFormCard" 
+                       class="bg-gradient-to-r from-brand-blue to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-5 py-2.5 rounded-xl font-bold text-xs tracking-wide transition shadow-md shadow-blue-500/20 hover:shadow-lg transform hover:-translate-y-0.5">
+                        <i class="fa-solid fa-pen-to-square mr-1"></i> Fill Form Below
+                    </a>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="lg:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100 text-xl">
+                    <i class="fa-solid fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3">
+            <a href="index.html" class="block px-3 py-2 rounded-lg font-bold text-slate-800 hover:bg-slate-100">Home</a>
+            <a href="about.html" class="block px-3 py-2 rounded-lg font-bold text-slate-800 hover:bg-slate-100">About Us</a>
+            <a href="courses.html" class="block px-3 py-2 rounded-lg font-bold text-slate-800 hover:bg-slate-100">Courses (7 Programs)</a>
+            <a href="admission.html" class="block px-3 py-2 rounded-lg font-bold text-brand-blue bg-blue-50">Admission (50% Off Offer)</a>
+            <a href="verification.html" class="block px-3 py-2 rounded-lg font-bold text-slate-800 hover:bg-slate-100">Student Verification</a>
+            <a href="contact.html" class="block px-3 py-2 rounded-lg font-bold text-slate-800 hover:bg-slate-100">Contact & Map</a>
+            <div class="pt-2 flex flex-col gap-2">
+                <a href="tel:03249375759" class="w-full text-center bg-slate-100 py-2.5 rounded-xl font-bold text-sm text-slate-800 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-phone text-brand-cyan"></i> Call 0324 9375759
+                </a>
+                <a href="https://wa.me/923249375759" target="_blank" class="w-full text-center bg-emerald-600 text-white py-2.5 rounded-xl font-bold text-sm flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-brand-gradient text-white py-14 lg:py-18 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(#00D2FF_1px,transparent_1px)] [background-size:24px_24px] opacity-10"></div>
+        <div class="absolute -top-32 -right-32 w-80 h-80 bg-brand-cyan/20 rounded-full filter blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            
+            <!-- Breadcrumb Navigation -->
+            <nav class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-semibold text-brand-cyan mb-4">
+                <a href="index.html" class="hover:underline text-slate-300">Home</a>
+                <i class="fa-solid fa-chevron-right text-[10px] text-slate-400"></i>
+                <span class="text-white">Online Admission</span>
+            </nav>
+
+            <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
+                Online Admission & <span class="text-gradient-cyan">Batch Registration</span>
+            </h1>
+            <p class="mt-3 text-slate-300 text-sm sm:text-base max-w-3xl mx-auto leading-relaxed">
+                Secure your seat in our upcoming IT batches! Original course fee is <strong class="text-white">16,000 PKR</strong>, but first-time students enjoy an automatic <strong class="text-brand-orange">50% DISCOUNT (8,000 PKR total)</strong>.
+            </p>
+        </div>
+    </section>
+
+    <!-- MAIN ADMISSION SECTION -->
+    <section class="py-16 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-10 items-start">
+                
+                <!-- Left Column: Guidelines & Benefits -->
+                <div class="lg:col-span-4 space-y-6">
+                    
+                    <!-- Promo Card -->
+                    <div class="bg-gradient-to-br from-brand-deep to-brand-navy text-white p-6 rounded-3xl shadow-xl border border-white/10 relative overflow-hidden">
+                        <div class="absolute -right-6 -bottom-6 w-32 h-32 bg-brand-cyan/10 rounded-full filter blur-xl"></div>
+                        <span class="bg-brand-orange text-white text-[10px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Welcome Promo</span>
+                        <h3 class="text-xl font-extrabold mt-3">50% First Course Discount!</h3>
+                        <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+                            Every new student joining SkillsNow Computer Institute receives half-fee waiver on their first program.
+                        </p>
+                        
+                        <div class="mt-4 pt-4 border-t border-white/10 space-y-2 text-xs">
+                            <div class="flex justify-between items-center text-slate-300">
+                                <span>Standard Course Fee:</span>
+                                <span class="line-through text-slate-400">16,000 PKR</span>
+                            </div>
+                            <div class="flex justify-between items-center text-emerald-400 font-bold">
+                                <span>50% Welcome Discount:</span>
+                                <span>- 8,000 PKR</span>
+                            </div>
+                            <div class="pt-2 border-t border-white/10 flex justify-between items-center">
+                                <span class="font-bold text-white">Total Fee Payable:</span>
+                                <span class="text-xl font-black text-brand-cyan">8,000 PKR</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Steps Box -->
+                    <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-4">
+                        <h4 class="font-extrabold text-slate-900 text-base flex items-center gap-2 border-b border-slate-100 pb-3">
+                            <i class="fa-solid fa-list-check text-brand-blue"></i> Admission Process
+                        </h4>
+                        
+                        <div class="space-y-4 text-xs text-slate-600">
+                            <div class="flex items-start gap-3">
+                                <div class="w-7 h-7 rounded-full bg-blue-100 text-brand-blue flex items-center justify-center font-bold shrink-0">1</div>
+                                <div>
+                                    <strong class="text-slate-800">Fill Application Form:</strong> Complete your details on this page.
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-7 h-7 rounded-full bg-blue-100 text-brand-blue flex items-center justify-center font-bold shrink-0">2</div>
+                                <div>
+                                    <strong class="text-slate-800">Batch Confirmation:</strong> Our admissions desk confirms your timing slot.
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-7 h-7 rounded-full bg-blue-100 text-brand-blue flex items-center justify-center font-bold shrink-0">3</div>
+                                <div>
+                                    <strong class="text-slate-800">Fee Submission:</strong> Pay fee via EasyPaisa, JazzCash, Bank or Cash at campus.
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-7 h-7 rounded-full bg-blue-100 text-brand-blue flex items-center justify-center font-bold shrink-0">4</div>
+                                <div>
+                                    <strong class="text-slate-800">Class Commencement:</strong> Receive roll number & start practical classes in lab!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Need Assistance Box -->
+                    <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3">
+                        <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2">
+                            <i class="fa-solid fa-headset text-brand-orange"></i> Need Admission Help?
+                        </h4>
+                        <p class="text-xs text-slate-500">Contact our counselor directly on phone or visit our campus location.</p>
+                        <a href="tel:03249375759" class="block text-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold py-2.5 rounded-xl text-xs transition">
+                            <i class="fa-solid fa-phone text-brand-cyan mr-1"></i> Call Helpline: 0324 9375759
+                        </a>
+                        <a href="https://share.google/3dakiHNMTiCTrXndM" target="_blank" class="block text-center border border-slate-200 hover:bg-slate-50 text-slate-700 font-bold py-2.5 rounded-xl text-xs transition">
+                            <i class="fa-solid fa-location-dot text-brand-orange mr-1"></i> Open Google Campus Map
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Right Column: Student Admission Form -->
+                <div class="lg:col-span-8" id="admissionFormCard">
+                    <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-xl border border-slate-200">
+                        
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-slate-100 pb-5 mb-6 gap-3">
+                            <div>
+                                <span class="bg-blue-50 text-brand-blue text-[11px] font-extrabold px-3 py-1 rounded-full uppercase border border-blue-100">
+                                    Official Enrollment Form
+                                </span>
+                                <h2 class="text-2xl font-black text-slate-900 mt-2">SkillsNow Student Application</h2>
+                            </div>
+                            <span class="text-xs text-slate-400 font-medium">Fields marked with <span class="text-red-500">*</span> are required</span>
+                        </div>
+
+                        <!-- Form Start -->
+                        <form id="skillsnowAdmissionForm" onsubmit="handleAdmissionSubmit(event)" class="space-y-6">
+                            
+                            <!-- Personal Info Section -->
+                            <div class="space-y-4">
+                                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 border-b border-slate-100 pb-1">
+                                    1. Personal & Identity Details
+                                </h3>
+
+                                <div class="grid sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">Student Full Name <span class="text-red-500">*</span></label>
+                                        <input type="text" id="studentName" required placeholder="e.g., Muhammad Usman" 
+                                               class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-medium focus:ring-2 focus:ring-brand-blue outline-none transition">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">Father / Guardian Name <span class="text-red-500">*</span></label>
+                                        <input type="text" id="fatherName" required placeholder="e.g., Riaz Ahmed" 
+                                               class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-medium focus:ring-2 focus:ring-brand-blue outline-none transition">
+                                    </div>
+                                </div>
+
+                                <div class="grid sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">CNIC / B-Form Number <span class="text-red-500">*</span></label>
+                                        <input type="text" id="cnicNumber" required placeholder="35201-XXXXXXXX-X" 
+                                               class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-medium focus:ring-2 focus:ring-brand-blue outline-none transition">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">Educational Qualification <span class="text-red-500">*</span></label>
+                                        <select id="qualification" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-medium focus:ring-2 focus:ring-brand-blue outline-none transition">
+                                            <option value="">Select Highest Qualification</option>
+                                            <option value="Matriculation / O-Levels">Matriculation / O-Levels</option>
+                                            <option value="Intermediate / A-Levels">Intermediate / A-Levels</option>
+                                            <option value="Bachelors / Graduation">Bachelors / Graduation</option>
+                                            <option value="Masters / Post-Graduation">Masters / Post-Graduation</option>
+                                            <option value="Under Matric / Other">Under Matric / Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Contact & Location Info -->
+                            <div class="space-y-4 pt-2">
+                                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 border-b border-slate-100 pb-1">
+                                    2. Contact & Location
+                                </h3>
+
+                                <div class="grid sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">WhatsApp / Mobile Number <span class="text-red-500">*</span></label>
+                                        <input type="tel" id="mobileNumber" required placeholder="0324 XXXXXXX" 
+                                               class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-medium focus:ring-2 focus:ring-brand-blue outline-none transition">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">Email Address</label>
+                                        <input type="email" id="emailAddress" placeholder="student@example.com" 
+                                               class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-medium focus:ring-2 focus:ring-brand-blue outline-none transition">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Residential Address / City Area <span class="text-red-500">*</span></label>
+                                    <input type="text" id="homeAddress" required placeholder="House No, Street, Area / Town" 
+                                           class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-medium focus:ring-2 focus:ring-brand-blue outline-none transition">
+                                </div>
+                            </div>
+
+                            <!-- Course & Batch Selection -->
+                            <div class="space-y-4 pt-2">
+                                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 border-b border-slate-100 pb-1">
+                                    3. Course Program & Batch Timing
+                                </h3>
+
+                                <div class="grid sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">Select Desired Course <span class="text-red-500">*</span></label>
+                                        <select id="courseSelect" required onchange="updateFormFee()" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-bold text-brand-navy focus:ring-2 focus:ring-brand-blue outline-none transition">
+                                            <option value="Basic IT & Office Automation">Basic IT & Office Automation</option>
+                                            <option value="Full-Stack Web Development">Full-Stack Web Development</option>
+                                            <option value="Digital Marketing & SEO">Digital Marketing & SEO</option>
+                                            <option value="Artificial Intelligence (AI) Course">Artificial Intelligence (AI) Course</option>
+                                            <option value="E-Commerce Mastery">E-Commerce Mastery</option>
+                                            <option value="Graphic Designing & Branding">Graphic Designing & Branding</option>
+                                            <option value="Video Editing & Motion Graphics">Video Editing & Motion Graphics</option>
+                                        </select>
+                                    </div>
+
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">Preferred Batch Timing <span class="text-red-500">*</span></label>
+                                        <select id="batchTiming" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-medium focus:ring-2 focus:ring-brand-blue outline-none transition">
+                                            <option value="Morning (10:00 AM - 12:00 PM)">Morning (10:00 AM - 12:00 PM)</option>
+                                            <option value="Afternoon (02:00 PM - 04:00 PM)">Afternoon (02:00 PM - 04:00 PM)</option>
+                                            <option value="Evening (05:00 PM - 07:00 PM)">Evening (05:00 PM - 07:00 PM)</option>
+                                            <option value="Weekend Special Batch">Weekend Special Batch</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-2">Are you enrolling for your 1st course at SkillsNow? <span class="text-red-500">*</span></label>
+                                    <div class="grid grid-cols-2 gap-4">
+                                        <label class="flex items-center gap-3 p-3 rounded-xl border border-slate-200 bg-slate-50 cursor-pointer hover:bg-blue-50 transition">
+                                            <input type="radio" name="isFirstCourse" value="yes" checked onchange="updateFormFee()" class="text-brand-blue">
+                                            <div>
+                                                <div class="text-xs font-bold text-slate-800">Yes (1st Time Student)</div>
+                                                <div class="text-[10px] text-emerald-600 font-extrabold">50% Welcome Discount Applied</div>
+                                            </div>
+                                        </label>
+
+                                        <label class="flex items-center gap-3 p-3 rounded-xl border border-slate-200 bg-slate-50 cursor-pointer hover:bg-blue-50 transition">
+                                            <input type="radio" name="isFirstCourse" value="no" onchange="updateFormFee()" class="text-brand-blue">
+                                            <div>
+                                                <div class="text-xs font-bold text-slate-800">No (Returning Student)</div>
+                                                <div class="text-[10px] text-slate-500">Standard Rate</div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Fee Calculation Live Bar -->
+                            <div class="bg-slate-900 text-white p-4 sm:p-5 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
+                                <div>
+                                    <div class="text-xs text-slate-400">Total Program Fee Breakdown:</div>
+                                    <div class="text-xs">
+                                        Standard: <span class="line-through text-slate-400" id="formStandardFeeText">16,000 PKR</span> &nbsp;|&nbsp; 
+                                        <span class="text-emerald-400 font-bold" id="formDiscountText">50% OFF Applied</span>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-xs text-slate-300 block">Total Payable Fee:</span>
+                                    <span class="text-2xl font-black text-brand-cyan" id="formFinalFeeText">8,000 PKR</span>
+                                </div>
+                            </div>
+
+                            <!-- Additional Message Input -->
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">Additional Notes / Questions (Optional)</label>
+                                <textarea id="additionalNotes" rows="2" placeholder="Any specific requirements or questions for our counselor..." 
+                                          class="w-full bg-slate-50 border border-slate-300 rounded-xl p-3 text-xs sm:text-sm focus:ring-2 focus:ring-brand-blue outline-none transition"></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="pt-2">
+                                <button type="submit" id="submitBtn" 
+                                        class="w-full bg-gradient-to-r from-brand-blue to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white font-extrabold py-4 rounded-xl text-sm transition shadow-lg flex items-center justify-center gap-2">
+                                    <i class="fa-solid fa-paper-plane"></i> Submit Admission Application
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SUCCESS & CONFIRMATION MODAL -->
+    <div id="admissionSuccessModal" class="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl relative text-center space-y-4">
+            
+            <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 mx-auto flex items-center justify-center text-3xl font-bold animate-bounce">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+
+            <h3 class="text-xl font-extrabold text-slate-900">Application Submitted!</h3>
+            <p class="text-xs text-slate-600 leading-relaxed" id="modalMessageText">
+                Your admission data has been recorded successfully.
+            </p>
+
+            <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 text-xs text-slate-700 space-y-1 text-left">
+                <div><strong class="text-slate-900">Student Name:</strong> <span id="resName"></span></div>
+                <div><strong class="text-slate-900">Selected Course:</strong> <span id="resCourse"></span></div>
+                <div><strong class="text-slate-900">Batch Timing:</strong> <span id="resTiming"></span></div>
+                <div><strong class="text-slate-900">Payable Fee:</strong> <span class="text-brand-blue font-bold" id="resFee"></span></div>
+            </div>
+
+            <div class="space-y-2 pt-2">
+                <a id="whatsappConfirmBtn" href="#" target="_blank" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold py-3 rounded-xl text-xs flex items-center justify-center gap-2 transition shadow">
+                    <i class="fa-brands fa-whatsapp text-base"></i> Confirm On WhatsApp Now
+                </a>
+                <button onclick="closeSuccessModal()" class="w-full bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold py-2.5 rounded-xl text-xs transition">
+                    Close Window
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-navy text-white pt-16 pb-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+                
+                <!-- Col 1: Brand Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-brand-deep border border-brand-cyan/40 flex items-center justify-center text-brand-cyan font-bold text-lg">
+                            SN
+                        </div>
+                        <div>
+                            <span class="text-xl font-black text-white">Skills</span>
+                            <span class="text-xl font-black text-brand-cyan">Now</span>
+                            <div class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Computer Institute</div>
+                        </div>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        SkillsNow Computer Institute provides high-quality practical IT training with lifetime certificate verification.
+                    </p>
+                    <div class="text-xs text-slate-300">
+                        <i class="fa-solid fa-phone text-brand-cyan mr-1"></i> Helpline: <strong>0324 9375759</strong>
+                    </div>
+                </div>
+
+                <!-- Col 2: Navigation Links -->
+                <div class="space-y-3">
+                    <h4 class="text-sm font-extrabold text-white uppercase tracking-wider">Quick Navigation</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="index.html" class="hover:text-brand-cyan transition">Home Page</a></li>
+                        <li><a href="about.html" class="hover:text-brand-cyan transition">About Us</a></li>
+                        <li><a href="courses.html" class="hover:text-brand-cyan transition">All 7 Courses</a></li>
+                        <li><a href="admission.html" class="text-brand-cyan font-bold">Admission Form (50% Off)</a></li>
+                        <li><a href="verification.html" class="hover:text-brand-cyan transition">Student Verification</a></li>
+                        <li><a href="contact.html" class="hover:text-brand-cyan transition">Contact & Location</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Leadership Team -->
+                <div class="space-y-3">
+                    <h4 class="text-sm font-extrabold text-white uppercase tracking-wider">Leadership</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><span class="text-slate-200 font-semibold">MZR Khan</span> — CEO</li>
+                        <li><span class="text-slate-200 font-semibold">Ali Raza</span> — Director</li>
+                        <li><span class="text-slate-200 font-semibold">Dayan Ali</span> — Project Manager</li>
+                        <li><span class="text-slate-200 font-semibold">Eman Waris</span> — Social Media Lead</li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Campus Map Link -->
+                <div class="space-y-3">
+                    <h4 class="text-sm font-extrabold text-white uppercase tracking-wider">Campus Map</h4>
+                    <p class="text-xs text-slate-400">Visit our campus for direct counselor guidance.</p>
+                    <a href="https://share.google/3dakiHNMTiCTrXndM" target="_blank" class="inline-block bg-brand-orange hover:bg-orange-600 text-white font-bold text-xs px-4 py-2.5 rounded-xl transition shadow">
+                        <i class="fa-solid fa-map-location-dot mr-1"></i> Open Google Maps Link
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+                <div>© 2026 SkillsNow Computer Institute. All Rights Reserved.</div>
+                <div class="flex gap-4">
+                    <a href="tel:03249375759" class="hover:text-slate-300">Helpline: 0324 9375759</a>
+                    <span>•</span>
+                    <a href="https://share.google/3dakiHNMTiCTrXndM" target="_blank" class="hover:text-slate-300">Google Location</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/923249375759?text=Hi%20SkillsNow,%20I%20have%20a%20question%20regarding%20online%20admission!"
+       target="_blank"
+       aria-label="Chat on WhatsApp"
+       class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl transition transform hover:scale-110 animate-bounce">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // =========================================================================
+        // GOOGLE SHEETS / EXCEL INTEGRATION CONFIGURATION
+        // =========================================================================
+        // Paste your Google Apps Script Webhook URL between the quotes below to send 
+        // form data directly to your Excel / Google Sheet.
+        // Example: "https://script.google.com/macros/s/AKfycbx.../exec"
+        // =========================================================================
+        const GOOGLE_SHEET_WEBHOOK_URL = ""; 
+
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const icon = document.getElementById('menuIcon');
+            menu.classList.toggle('hidden');
+            if (menu.classList.contains('hidden')) {
+                icon.className = 'fa-solid fa-bars';
+            } else {
+                icon.className = 'fa-solid fa-xmark';
+            }
+        }
+
+        // Auto pre-select course from URL query parameter if coming from courses directory
+        window.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const courseParam = urlParams.get('course');
+            if (courseParam) {
+                const select = document.getElementById('courseSelect');
+                for (let i = 0; i < select.options.length; i++) {
+                    if (select.options[i].value.toLowerCase().includes(courseParam.toLowerCase())) {
+                        select.selectedIndex = i;
+                        break;
+                    }
+                }
+            }
+            updateFormFee();
+        });
+
+        // Update fee calculations dynamically
+        function updateFormFee() {
+            const isFirst = document.querySelector('input[name="isFirstCourse"]:checked').value;
+            const standardFeeText = document.getElementById('formStandardFeeText');
+            const discountText = document.getElementById('formDiscountText');
+            const finalFeeText = document.getElementById('formFinalFeeText');
+
+            if (isFirst === 'yes') {
+                standardFeeText.classList.add('line-through');
+                discountText.textContent = '- 8,000 PKR (50% Welcome Off)';
+                discountText.className = 'text-emerald-400 font-bold';
+                finalFeeText.textContent = '8,000 PKR';
+            } else {
+                standardFeeText.classList.remove('line-through');
+                discountText.textContent = '0 PKR (Standard Rate)';
+                discountText.className = 'text-slate-400 font-medium';
+                finalFeeText.textContent = '16,000 PKR';
+            }
+        }
+
+        // Handle Admission Form Submission
+        async function handleAdmissionSubmit(event) {
+            event.preventDefault();
+
+            const submitBtn = document.getElementById('submitBtn');
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fa-solid fa-spinner animate-spin"></i> Processing Application...';
+
+            const formData = {
+                timestamp: new Date().toLocaleString(),
+                studentName: document.getElementById('studentName').value.trim(),
+                fatherName: document.getElementById('fatherName').value.trim(),
+                cnicNumber: document.getElementById('cnicNumber').value.trim(),
+                qualification: document.getElementById('qualification').value,
+                mobileNumber: document.getElementById('mobileNumber').value.trim(),
+                emailAddress: document.getElementById('emailAddress').value.trim() || 'N/A',
+                homeAddress: document.getElementById('homeAddress').value.trim(),
+                courseName: document.getElementById('courseSelect').value,
+                batchTiming: document.getElementById('batchTiming').value,
+                isFirstCourse: document.querySelector('input[name="isFirstCourse"]:checked').value,
+                payableFee: document.getElementById('formFinalFeeText').textContent,
+                additionalNotes: document.getElementById('additionalNotes').value.trim() || 'None'
+            };
+
+            // Attempt submitting data to configured Google Sheet URL if provided
+            if (GOOGLE_SHEET_WEBHOOK_URL && GOOGLE_SHEET_WEBHOOK_URL.trim() !== "") {
+                try {
+                    await fetch(GOOGLE_SHEET_WEBHOOK_URL, {
+                        method: 'POST',
+                        mode: 'no-cors',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(formData)
+                    });
+                } catch (err) {
+                    console.log('Webhook transmission notice:', err);
+                }
+            }
+
+            // Populate Modal Results
+            document.getElementById('resName').textContent = formData.studentName;
+            document.getElementById('resCourse').textContent = formData.courseName;
+            document.getElementById('resTiming').textContent = formData.batchTiming;
+            document.getElementById('resFee').textContent = formData.payableFee;
+
+            // Construct WhatsApp Message Text
+            const waText = `Hello SkillsNow Institute! I submitted my online admission form:%0A` +
+                           `- *Name:* ${encodeURIComponent(formData.studentName)}%0A` +
+                           `- *Father Name:* ${encodeURIComponent(formData.fatherName)}%0A` +
+                           `- *Phone:* ${encodeURIComponent(formData.mobileNumber)}%0A` +
+                           `- *Course:* ${encodeURIComponent(formData.courseName)}%0A` +
+                           `- *Batch:* ${encodeURIComponent(formData.batchTiming)}%0A` +
+                           `- *Payable Fee:* ${encodeURIComponent(formData.payableFee)}`;
+
+            document.getElementById('whatsappConfirmBtn').href = `https://wa.me/923249375759?text=${waText}`;
+
+            // Reset Button & Show Modal
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Submit Admission Application';
+            
+            document.getElementById('admissionSuccessModal').classList.remove('hidden');
+        }
+
+        function closeSuccessModal() {
+            document.getElementById('admissionSuccessModal').classList.add('hidden');
+            document.getElementById('skillsnowAdmissionForm').reset();
+            updateFormFee();
+        }
+    </script>
+</body>
+</html>
